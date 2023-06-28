@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Roboto-regular;
+    src: url('../assets/Roboto-Regular.ttf');
+}
+@layer components{
+    body{
+    font-family: Roboto-regular;
+    background-color:hsl(234, 29%, 20%);
+    line-height: 1;
+    
+    @apply  overflow-hidden max-sm:bg-white max-sm:overflow-x-hidden max-sm:overflow-y-auto
+    }
+}
+
+
