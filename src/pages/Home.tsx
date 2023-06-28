@@ -37,7 +37,7 @@ export default function Home() {
         <AnimatePresence>
         <motion.div 
         initial={{y:'500%'}} 
-        transition={{delay: 0.75, ease:"easeOut"}} 
+        transition={{delay: 0.75}} 
         animate={{y:'0%'}} 
         exit={{opacity: 1}}
         className={`max-w-[700px] max-h-[500px] p-[30px] rounded-lg  grid grid-flow-col bg-white 
